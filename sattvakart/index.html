@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sattva Kart – Natural Sona Moti Wheat & Whole Wheat Flour from Haryana</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Sattva Kart offers naturally grown Sona Moti wheat seed and stone-ground whole wheat flour (atta) from Haryana. No pesticides, no chemicals – pure, traditional grains delivered to your home."
+  />
+  <meta
+    name="keywords"
+    content="Sona Moti wheat, Sona Moti atta, natural wheat flour, desi wheat, pesticide free wheat, Haryana wheat, stone ground flour, chakki atta, Sattva Kart"
+  />
+
+  <!-- Canonical URL – replace with your final domain -->
+  <link rel="canonical" href="https://www.sattvakart.in/" />
+
+  <!-- Open Graph / Social Preview -->
+  <meta property="og:title" content="Sattva Kart – Natural Sona Moti Wheat & Flour" />
+  <meta
+    property="og:description"
+    content="Naturally grown Sona Moti wheat and stone-ground whole wheat flour from Haryana. Order directly on WhatsApp."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.sattvakart.in/" />
+  <meta property="og:image" content="https://www.sattvakart.in/og-image.jpg" />
+
+  <!-- Basic styling -->
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background-color: #f6f2e9;
+    }
+    header {
+      background: #fffaf1;
+      border-bottom: 1px solid #e2d7c3;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 0;
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 22px;
+      letter-spacing: 0.04em;
+    }
+    .logo span {
+      color: #8b5a2b;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #444;
+      font-size: 14px;
+    }
+    nav a:hover {
+      color: #8b5a2b;
+    }
+    .hero {
+      padding: 40px 0 32px;
+    }
+    .hero-inner {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+      gap: 32px;
+      align-items: center;
+    }
+    @media (max-width: 800px) {
+      .hero-inner {
+        grid-template-columns: 1fr;
+      }
+    }
+    .hero h1 {
+      font-size: 32px;
+      margin-bottom: 16px;
+      color: #2a1a0b;
+    }
+    .hero p {
+      font-size: 15px;
+      margin-bottom: 18px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      border: 1px solid #d1c3a6;
+      margin-bottom: 10px;
+      color: #725032;
+      background: #fdf7ea;
+    }
+    .hero-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 14px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      text-align: center;
+    }
+    .btn-primary {
+      background: #8b5a2b;
+      color: #fff;
+      border-color: #8b5a2b;
+    }
+    .btn-primary:hover {
+      background: #744720;
+      border-color: #744720;
+    }
+    .btn-outline {
+      background: transparent;
+      color: #8b5a2b;
+      border-color: #8b5a2b;
+    }
+    .btn-outline:hover {
+      background: #f9efe0;
+    }
+    .hero-note {
+      font-size: 12px;
+      color: #666;
+      margin-top: 8px;
+    }
+    .hero-image-placeholder {
+      width: 100%;
+      min-height: 220px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, #e8ddc9, #f7f1e2);
+      border: 1px solid #e0d4c0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 16px;
+      font-size: 14px;
+      color: #5b452d;
+    }
+    section {
+      padding: 32px 0;
+    }
+    h2 {
+      font-size: 22px;
+      margin-bottom: 12px;
+      color: #2a1a0b;
+    }
+    h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+      color: #3a2613;
+    }
+    p {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    .section-subtitle {
+      font-size: 13px;
+      color: #6d5b3e;
+      margin-bottom: 18px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .card {
+      background: #fffdfa;
+      border-radius: 14px;
+      border: 1px solid #e1d5c1;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .price {
+      font-weight: 600;
+      color: #8b5a2b;
+      margin-bottom: 6px;
+    }
+    .unit {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 8px;
+    }
+    ul {
+      padding-left: 18px;
+      margin-bottom: 10px;
+    }
+    li {
+      font-size: 13px;
+      margin-bottom: 4px;
+    }
+    .faq-item {
+      margin-bottom: 16px;
+    }
+    .faq-item strong {
+      display: block;
+      margin-bottom: 4px;
+      color: #3a2613;
+    }
+    footer {
+      background: #f0e6d5;
+      padding: 20px 0;
+      margin-top: 20px;
+      border-top: 1px solid #ddccb2;
+      font-size: 13px;
+    }
+    .contact-block {
+      margin-top: 10px;
+    }
+    .contact-block a {
+      color: #8b5a2b;
+      text-decoration: none;
+    }
+    .contact-block a:hover {
+      text-decoration: underline;
+    }
+    .highlight {
+      font-weight: 600;
+      color: #3b2614;
+    }
+  </style>
+
+  <!-- Structured Data (Local Business + Products) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Sattva Kart",
+    "description": "Sattva Kart offers naturally grown Sona Moti wheat seed and stone-ground whole wheat flour from Fatehabad, Haryana.",
+    "telephone": "+91-8860493812",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fatehabad",
+      "addressRegion": "Haryana",
+      "addressCountry": "IN"
+    },
+    "sameAs": [],
+    "url": "https://www.sattvakart.in"
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo">
+        Sattva <span>Kart</span>
+      </div>
+      <nav>
+        <a href="#products">Products</a>
+        <a href="#story">Our Story</a>
+        <a href="#how-to-order">How to Order</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <div class="badge">Natural Sona Moti Wheat from Haryana</div>
+          <h1>Sattva Kart – Pure Sona Moti Wheat and Stone-Ground Atta</h1>
+          <p>
+            Sattva Kart brings you naturally grown, desi <span class="highlight">Sona Moti wheat</span> and
+            traditional stone-ground whole wheat flour directly from fields in Haryana.
+            No pesticides, no synthetic fertilisers, no mixing – just clean, honest grain.
+          </p>
+          <p>
+            Ideal for families, sattvic diets, health-conscious buyers and anyone who wants to switch back
+            to real, nutrient-rich Indian wheat.
+          </p>
+          <div class="hero-cta">
+            <a
+              class="btn btn-primary"
+              href="https://wa.me/918860493812?text=Hi%20Sattva%20Kart%2C%20I%20want%20to%20order%20Sona%20Moti%20products."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Order on WhatsApp
+            </a>
+            <a href="#products" class="btn btn-outline">View Products & Pricing</a>
+          </div>
+          <p class="hero-note">
+            To buy, contact or WhatsApp: <strong>+91 88604 93812</strong>
+          </p>
+        </div>
+        <div>
+          <div class="hero-image-placeholder">
+            Add a real photo later of your Sona Moti wheat, farm or chakki.
+            For now this is a placeholder area for your brand image.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products">
+      <div class="container">
+        <h2>Our Products</h2>
+        <p class="section-subtitle">
+          Pure, desi and naturally grown Sona Moti wheat – available as seed and as stone-ground whole wheat flour.
+        </p>
+
+        <div class="grid">
+          <!-- Product 1 -->
+          <article class="card">
+            <div>
+              <h3>Sona Moti Wheat Seed</h3>
+              <p class="price">₹100 / kg</p>
+              <p class="unit">Ideal for farmers and home growers</p>
+              <p>
+                Pure Sona Moti wheat seed, suitable for natural and organic style farming. Saved and selected from
+                desi variety, not hybrid or chemically treated.
+              </p>
+              <ul>
+                <li>Desi Sona Moti variety</li>
+                <li>No chemical seed treatment</li>
+                <li>Suitable for natural and low-input farming</li>
+              </ul>
+            </div>
+            <div>
+              <a
+                class="btn btn-primary"
+                href="https://wa.me/918860493812?text=Hi%20Sattva%20Kart%2C%20I%20want%20to%20order%20Sona%20Moti%20Wheat%20Seed.%20Quantity%3A%20__%20kg.%20City%3A%20____."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Order Seed on WhatsApp
+              </a>
+            </div>
+          </article>
+
+          <!-- Product 2 -->
+          <article class="card">
+            <div>
+              <h3>Sona Moti Whole Wheat Flour (Loose per kg)</h3>
+              <p class="price">₹160 / kg</p>
+              <p class="unit">Stone-ground chakki atta</p>
+              <p>
+                Whole wheat flour freshly milled from Sona Moti grains. Stone-ground to retain bran, germ and
+                natural fibre. Rich aroma, soft rotis, deeper nourishment.
+              </p>
+              <ul>
+                <li>100% Sona Moti whole wheat</li>
+                <li>Stone-ground on chakki</li>
+                <li>No bleaching, no refining, no mixing</li>
+              </ul>
+            </div>
+            <div>
+              <a
+                class="btn btn-primary"
+                href="https://wa.me/918860493812?text=Hi%20Sattva%20Kart%2C%20I%20want%20to%20order%20Sona%20Moti%20Whole%20Wheat%20Flour%20(Loose).%20Quantity%3A%20__%20kg.%20City%3A%20____."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Order Flour on WhatsApp
+              </a>
+            </div>
+          </article>
+
+          <!-- Product 3 -->
+          <article class="card">
+            <div>
+              <h3>Sona Moti Whole Wheat Flour – 10 kg Pack</h3>
+              <p class="price">₹1,500 per 10 kg pack</p>
+              <p class="unit">Best value for families</p>
+              <p>
+                Convenient 10 kg pack of Sona Moti whole wheat atta for regular home use. Ideal for monthly household
+                consumption with consistent quality and taste.
+              </p>
+              <ul>
+                <li>10 kg pre-packed unit</li>
+                <li>Same stone-ground Sona Moti flour</li>
+                <li>Perfect for family and bulk buyers</li>
+              </ul>
+            </div>
+            <div>
+              <a
+                class="btn btn-primary"
+                href="https://wa.me/918860493812?text=Hi%20Sattva%20Kart%2C%20I%20want%20to%20order%20a%2010%20kg%20pack%20of%20Sona%20Moti%20Wheat%20Flour.%20Number%20of%20packs%3A%20__.%20City%3A%20____."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Order 10 kg Pack on WhatsApp
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- STORY -->
+    <section id="story">
+      <div class="container">
+        <h2>Why Sattva Kart and Sona Moti Wheat</h2>
+        <p class="section-subtitle">
+          A small, soil-connected initiative to bring back pure, desi grains and honest food.
+        </p>
+        <p>
+          Sattva Kart was started with a simple question: what if families could access the same pure grain that
+          farmers keep for their own homes, instead of the polished, mixed and over-processed wheat that reaches
+          most markets.
+        </p>
+        <p>
+          We grow and source <span class="highlight">Sona Moti wheat</span> in Haryana with a focus on natural
+          methods – without pesticides and with minimal external inputs. The grain is then stone-ground on chakki
+          to preserve fibre, micronutrients and flavour.
+        </p>
+        <p>
+          Every batch is handled in small lots so that you get fresh, aromatic and clean food that supports
+          sattvic living, better digestion and long-term health.
+        </p>
+      </div>
+    </section>
+
+    <!-- HOW TO ORDER -->
+    <section id="how-to-order">
+      <div class="container">
+        <h2>How to Order from Sattva Kart</h2>
+        <p class="section-subtitle">
+          Simple, direct and personal. No complicated checkout – you talk to us directly on WhatsApp.
+        </p>
+        <ol style="margin-left: 18px; font-size: 14px; margin-bottom: 10px;">
+          <li>Browse the products and pricing above.</li>
+          <li>Click on any “Order on WhatsApp” button, or save our number.</li>
+          <li>Send us your product, quantity and city on WhatsApp.</li>
+          <li>We confirm delivery options, payment (UPI / bank transfer) and dispatch timeline.</li>
+        </ol>
+        <p>
+          WhatsApp and call number: <strong>+91 88604 93812</strong><br />
+          Or click here:
+          <a
+            href="https://wa.me/918860493812?text=Hi%20Sattva%20Kart%2C%20I%20want%20to%20know%20more%20about%20Sona%20Moti%20wheat%20and%20atta."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            chat on WhatsApp
+          </a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+          <strong>Where is Sattva Kart based?</strong>
+          <p>
+            We are based in Haryana, with farming and storage operations around Fatehabad. Grain is cleaned and
+            stone-ground locally before being shipped to you.
+          </p>
+        </div>
+        <div class="faq-item">
+          <strong>Is Sona Moti wheat really different from regular wheat?</strong>
+          <p>
+            Sona Moti is a desi wheat variety known for its rich aroma, softness and better digestibility compared
+            to many modern hybrids. It is often preferred by people following traditional, sattvic or health-focused
+            diets.
+          </p>
+        </div>
+        <div class="faq-item">
+          <strong>Do you use pesticides or chemical fertilisers?</strong>
+          <p>
+            Our focus is on natural, low-chemical farming. We avoid pesticide spraying and do not chemically treat
+            seed or flour. The idea is to keep food as close to its original form as possible.
+          </p>
+        </div>
+        <div class="faq-item">
+          <strong>How fresh is the flour when it reaches me?</strong>
+          <p>
+            Flour is milled in small batches. We generally grind and dispatch within a short window so that rotis
+            made from Sattva Kart atta have the aroma and texture of freshly milled wheat.
+          </p>
+        </div>
+        <div class="faq-item">
+          <strong>Do you ship across India?</strong>
+          <p>
+            Yes, we can arrange shipping to most major cities and towns in India. WhatsApp us your pin code and
+            we will confirm delivery options and approximate transit time.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- CONTACT / FOOTER -->
+  <footer id="contact">
+    <div class="container">
+      <div>
+        <strong>Sattva Kart</strong> – Natural Sona Moti Wheat and Stone-Ground Atta
+      </div>
+      <div class="contact-block">
+        <div>WhatsApp / Call: <a href="tel:+918860493812">+91 88604 93812</a></div>
+        <div>
+          WhatsApp direct link:
+          <a
+            href="https://wa.me/918860493812?text=Hi%20Sattva%20Kart%2C%20I%20am%20interested%20in%20Sona%20Moti%20wheat%20and%20atta."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open chat
+          </a>
+        </div>
+      </div>
+      <div style="margin-top: 8px;">
+        © <span id="year"></span> Sattva Kart. All rights reserved.
+      </div>
+    </div>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
