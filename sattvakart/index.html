@@ -90,7 +90,7 @@ align-items:center;
 overflow:hidden;
 }
 
-.hero video{
+.hero-image{
 position:absolute;
 top:0;
 left:0;
@@ -239,10 +239,13 @@ overflow:hidden;
 box-shadow:0 20px 50px rgba(0,0,0,0.12);
 }
 
-.timeline-image img{
+.timeline-image video{
 height:500px;
 width:100%;
 object-fit:cover;
+display:block;
+border-radius:24px;
+background:black;
 }
 
 .comparison{
@@ -506,7 +509,7 @@ direction:ltr;
 font-size:32px;
 }
 
-.timeline-image img{
+.timeline-image video{
 height:320px;
 }
 
@@ -572,9 +575,11 @@ Sattva <span>Kart</span>
 
 <section class="hero">
 
-<video autoplay muted loop playsinline>
-<source src="assets/hero-wheat-field.mp4" type="video/mp4">
-</video>
+<img
+src="assets/hero-wheat-field.jpg"
+alt="Sattva Kart Natural Farming"
+class="hero-image"
+/>
 
 <div class="hero-overlay"></div>
 
@@ -656,6 +661,7 @@ We show you every step.
 <div class="timeline">
 
 <div class="timeline-item">
+
 <div class="timeline-text">
 <h3>01 — Seed Treatment</h3>
 <p>
@@ -664,11 +670,15 @@ Every harvest begins with carefully prepared seeds and living soil.
 </div>
 
 <div class="timeline-image">
-<img src="assets/seed-treatment.jpg" alt="Seed Treatment">
+<video autoplay muted loop controls playsinline preload="metadata">
+<source src="assets/seed-treatment.mp4" type="video/mp4">
+</video>
 </div>
+
 </div>
 
 <div class="timeline-item">
+
 <div class="timeline-text">
 <h3>02 — Sowing</h3>
 <p>
@@ -677,11 +687,15 @@ Grown slowly on our farms using natural farming principles.
 </div>
 
 <div class="timeline-image">
-<img src="assets/sowing.jpg" alt="Sowing">
+<video autoplay muted loop controls playsinline preload="metadata">
+<source src="assets/sowing.mp4" type="video/mp4">
+</video>
 </div>
+
 </div>
 
 <div class="timeline-item">
+
 <div class="timeline-text">
 <h3>03 — Growth</h3>
 <p>
@@ -690,11 +704,15 @@ No shortcuts. No artificial acceleration. Just time, soil, water & care.
 </div>
 
 <div class="timeline-image">
-<img src="assets/growing.jpg" alt="Growing">
+<video autoplay muted loop controls playsinline preload="metadata">
+<source src="assets/growing.mp4" type="video/mp4">
+</video>
 </div>
+
 </div>
 
 <div class="timeline-item">
+
 <div class="timeline-text">
 <h3>04 — Jeevaamrit</h3>
 <p>
@@ -703,11 +721,15 @@ We nourish the soil naturally using Jeevaamrit-based farming practices inspired 
 </div>
 
 <div class="timeline-image">
-<img src="assets/jeevaamrit.jpg" alt="Jeevaamrit">
+<video autoplay muted loop controls playsinline preload="metadata">
+<source src="assets/jeevaamrit.mp4" type="video/mp4">
+</video>
 </div>
+
 </div>
 
 <div class="timeline-item">
+
 <div class="timeline-text">
 <h3>05 — Harvesting</h3>
 <p>
@@ -716,11 +738,15 @@ Harvested at the right maturity for better nutrition, aroma & taste.
 </div>
 
 <div class="timeline-image">
-<img src="assets/harvesting.jpg" alt="Harvesting">
+<video autoplay muted loop controls playsinline preload="metadata">
+<source src="assets/harvesting.mp4" type="video/mp4">
+</video>
 </div>
+
 </div>
 
 <div class="timeline-item">
+
 <div class="timeline-text">
 <h3>06 — Packaging</h3>
 <p>
@@ -729,8 +755,11 @@ Packed carefully in small batches before reaching your home.
 </div>
 
 <div class="timeline-image">
-<img src="assets/packaging.jpg" alt="Packaging">
+<video autoplay muted loop controls playsinline preload="metadata">
+<source src="assets/packaging.mp4" type="video/mp4">
+</video>
 </div>
+
 </div>
 
 </div>
@@ -984,10 +1013,12 @@ with a focus on living soil, ecological balance and chemical-free cultivation.
 </p>
 
 <div class="mentor-image">
+
 <img
 src="assets/mentor-visit.jpg"
 alt="Prof. Laxmidhar Behera visiting Sattva Kart farms"
 >
+
 </div>
 
 </div>
