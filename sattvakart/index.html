@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -158,6 +159,8 @@ text-decoration:none;
 font-size:15px;
 transition:0.3s;
 display:inline-block;
+border:none;
+cursor:pointer;
 }
 
 .btn-primary{
@@ -243,7 +246,6 @@ box-shadow:0 20px 50px rgba(0,0,0,0.12);
 height:500px;
 width:100%;
 object-fit:cover;
-display:block;
 border-radius:24px;
 background:black;
 }
@@ -278,12 +280,12 @@ color:#555;
 }
 
 .highlight-card{
-background:#1a1a1a;
+background:#111;
 color:white;
 }
 
 .highlight-card li{
-color:rgba(255,255,255,0.82);
+color:rgba(255,255,255,0.85);
 }
 
 .products{
@@ -323,16 +325,6 @@ color:#666;
 margin-bottom:28px;
 }
 
-.price{
-font-size:18px;
-margin-bottom:8px;
-}
-
-.subscriber{
-font-weight:700;
-color:#8b5a2b;
-}
-
 .subscription{
 background:#111;
 color:white;
@@ -345,6 +337,11 @@ font-size:62px;
 line-height:1.1;
 letter-spacing:-2px;
 margin-bottom:26px;
+}
+
+.subscription p{
+font-size:22px;
+opacity:0.9;
 }
 
 .subscription ul{
@@ -383,8 +380,8 @@ color:white;
 
 .dark-section h2{
 font-size:72px;
-letter-spacing:-2px;
 line-height:1;
+letter-spacing:-2px;
 margin-bottom:20px;
 }
 
@@ -414,6 +411,23 @@ padding:16px 28px;
 border-radius:999px;
 background:white;
 font-size:18px;
+}
+
+.delivery-banner{
+margin-top:40px;
+text-align:center;
+}
+
+.delivery-banner h2{
+font-size:64px;
+line-height:1;
+letter-spacing:-2px;
+margin-bottom:20px;
+}
+
+.delivery-banner p{
+font-size:24px;
+color:#666;
 }
 
 .final-cta{
@@ -537,6 +551,10 @@ font-size:42px;
 font-size:46px;
 }
 
+.delivery-banner h2{
+font-size:42px;
+}
+
 .final-content h2{
 font-size:52px;
 }
@@ -548,6 +566,7 @@ display:none;
 }
 
 </style>
+
 </head>
 
 <body>
@@ -607,10 +626,9 @@ Food rooted in honesty, soil & consciousness.
 
 <a
 class="btn btn-primary"
-href="https://wa.me/918860493812"
-target="_blank"
+href="#products"
 >
-Subscribe Monthly
+Explore Products
 </a>
 
 <a
@@ -652,7 +670,7 @@ We show you every step.
 
 </section>
 
-<!-- FARM JOURNEY -->
+<!-- STORY -->
 
 <section id="story">
 
@@ -670,7 +688,7 @@ Every harvest begins with carefully prepared seeds and living soil.
 </div>
 
 <div class="timeline-image">
-<video autoplay muted loop controls playsinline preload="metadata">
+<video autoplay muted loop controls playsinline>
 <source src="assets/seed-treatment.mp4" type="video/mp4">
 </video>
 </div>
@@ -687,7 +705,7 @@ Grown slowly on our farms using natural farming principles.
 </div>
 
 <div class="timeline-image">
-<video autoplay muted loop controls playsinline preload="metadata">
+<video autoplay muted loop controls playsinline>
 <source src="assets/sowing.mp4" type="video/mp4">
 </video>
 </div>
@@ -704,7 +722,7 @@ No shortcuts. No artificial acceleration. Just time, soil, water & care.
 </div>
 
 <div class="timeline-image">
-<video autoplay muted loop controls playsinline preload="metadata">
+<video autoplay muted loop controls playsinline>
 <source src="assets/growing.mp4" type="video/mp4">
 </video>
 </div>
@@ -716,12 +734,12 @@ No shortcuts. No artificial acceleration. Just time, soil, water & care.
 <div class="timeline-text">
 <h3>04 — Jeevaamrit</h3>
 <p>
-We nourish the soil naturally using Jeevaamrit-based farming practices inspired by natural farming principles.
+We nourish the soil naturally using Jeevaamrit-based farming practices.
 </p>
 </div>
 
 <div class="timeline-image">
-<video autoplay muted loop controls playsinline preload="metadata">
+<video autoplay muted loop controls playsinline>
 <source src="assets/jeevaamrit.mp4" type="video/mp4">
 </video>
 </div>
@@ -738,7 +756,7 @@ Harvested at the right maturity for better nutrition, aroma & taste.
 </div>
 
 <div class="timeline-image">
-<video autoplay muted loop controls playsinline preload="metadata">
+<video autoplay muted loop controls playsinline>
 <source src="assets/harvesting.mp4" type="video/mp4">
 </video>
 </div>
@@ -755,7 +773,7 @@ Packed carefully in small batches before reaching your home.
 </div>
 
 <div class="timeline-image">
-<video autoplay muted loop controls playsinline preload="metadata">
+<video autoplay muted loop controls playsinline>
 <source src="assets/packaging.mp4" type="video/mp4">
 </video>
 </div>
@@ -820,6 +838,179 @@ you can trust it.
 
 </section>
 
+<!-- DELIVERY -->
+
+<section>
+
+<div class="container">
+
+<div class="delivery-banner">
+
+<h2>
+Pan-India delivery.
+Included.
+</h2>
+
+<p>
+No hidden courier charges.
+Freshly milled flour delivered directly from our farms.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PRODUCTS -->
+
+<section id="products">
+
+<div class="container">
+
+<div class="philosophy">
+
+<h2>
+Food made for conscious families.
+</h2>
+
+<p>
+Freshly milled.
+Farm direct.
+Monthly subscription convenience.
+</p>
+
+</div>
+
+<div class="products">
+
+<!-- SONA MOTI -->
+
+<div class="product">
+
+<img src="assets/sona-moti-flour.jpg" alt="Sona Moti Flour">
+
+<h3>
+Sona Moti Wheat Flour
+</h3>
+
+<p>
+Traditional desi wheat.
+Freshly stone-ground in small batches for aroma, softness & nutrition.
+</p>
+
+<h4 style="margin-bottom:16px;">
+5 KG Monthly
+</h4>
+
+<form>
+<script
+src="https://cdn.razorpay.com/static/widget/subscription-button.js"
+data-subscription_button_id="pl_So7zxl13uoT5MS"
+data-button_theme="brand-color"
+async>
+</script>
+</form>
+
+<div style="height:30px;"></div>
+
+<h4 style="margin-bottom:16px;">
+10 KG Monthly
+</h4>
+
+<form>
+<script
+src="https://cdn.razorpay.com/static/widget/subscription-button.js"
+data-subscription_button_id="pl_So82dvkqdnccAh"
+data-button_theme="brand-color"
+async>
+</script>
+</form>
+
+</div>
+
+<!-- SHARBATI -->
+
+<div class="product">
+
+<img src="assets/sharbati-flour.jpg" alt="Sharbati Flour">
+
+<h3>
+Sharbati Wheat Flour
+</h3>
+
+<p>
+Naturally grown Sharbati wheat with balanced softness, texture & nourishment.
+</p>
+
+<h4 style="margin-bottom:16px;">
+5 KG Monthly
+</h4>
+
+<form>
+<script
+src="https://cdn.razorpay.com/static/widget/subscription-button.js"
+data-subscription_button_id="pl_So84tiPkM4RIZc"
+data-button_theme="brand-color"
+async>
+</script>
+</form>
+
+<div style="height:30px;"></div>
+
+<h4 style="margin-bottom:16px;">
+10 KG Monthly
+</h4>
+
+<form>
+<script
+src="https://cdn.razorpay.com/static/widget/subscription-button.js"
+data-subscription_button_id="pl_So87RU4y7r4J5G"
+data-button_theme="brand-color"
+async>
+</script>
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SUBSCRIPTION -->
+
+<section id="subscription">
+
+<div class="container">
+
+<div class="subscription">
+
+<h2>
+Designed for families who care about what they eat.
+</h2>
+
+<p>
+Consistent quality.
+Fresh milling.
+Delivered directly from our farms every month.
+</p>
+
+<ul>
+<li>Pan-India delivery included</li>
+<li>No additional delivery charges</li>
+<li>Freshly milled before dispatch</li>
+<li>Direct farm sourcing</li>
+<li>Monthly subscription convenience</li>
+<li>Cancel anytime</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
 
 <!-- PHILOSOPHY -->
 
@@ -866,7 +1057,7 @@ Sattva Kart was shaped by the belief that food should nourish not only the body,
 <p style="max-width:950px;margin:auto;font-size:20px;opacity:0.9;">
 The vision was deeply strengthened through the inspiration and encouragement of
 Prof. Laxmidhar Behera,
-Director, Indian Institute of Technology (IIT) Mandi,
+Director, IIT Mandi,
 whose purpose-driven thinking empowered us to pursue meaningful and conscious innovation.
 </p>
 
@@ -875,15 +1066,14 @@ whose purpose-driven thinking empowered us to pursue meaningful and conscious in
 <p style="max-width:950px;margin:auto;font-size:20px;opacity:0.9;">
 Our farming philosophy is inspired by the natural farming principles pioneered by
 Padma Shri Dr. Subhash Palekar,
-founder of Subhash Palekar Natural Farming (SPNF),
-with a focus on living soil, ecological balance and chemical-free cultivation.
+focused on living soil, ecological balance and chemical-free cultivation.
 </p>
 
 <div class="mentor-image">
 
 <img
 src="assets/mentor-visit.jpg"
-alt="Prof. Laxmidhar Behera visiting Sattva Kart farms"
+alt="Mentor Visit"
 >
 
 </div>
@@ -941,10 +1131,9 @@ From living soil to conscious families.
 
 <a
 class="btn btn-primary"
-href="https://wa.me/918860493812"
-target="_blank"
+href="#products"
 >
-Subscribe Now
+Explore Products
 </a>
 
 </div>
@@ -977,4 +1166,5 @@ WhatsApp / Call:
 </footer>
 
 </body>
+
 </html>
