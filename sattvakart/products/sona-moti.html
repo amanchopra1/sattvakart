@@ -8,14 +8,26 @@
 
 <title>Sona Moti Wheat Flour — Sattva Kart</title>
 
-<link rel="stylesheet" href="../style.css">
+<meta
+name="description"
+content="Traditional Sona Moti wheat flour. Naturally grown and freshly stone-ground every month. Pan-India delivery included."
+/>
+
+<link rel="icon" href="../assets/favicon.ico">
 
 <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
 
 body{
 font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
 background:#f6f2ea;
 color:#111;
+line-height:1.6;
 padding:60px 24px;
 }
 
@@ -26,38 +38,82 @@ margin:auto;
 
 .product-image{
 width:100%;
-border-radius:24px;
-margin-bottom:40px;
+border-radius:28px;
+margin-bottom:50px;
 }
 
 h1{
-font-size:64px;
-margin-bottom:20px;
-letter-spacing:-2px;
+font-size:72px;
+line-height:1;
+letter-spacing:-3px;
+margin-bottom:24px;
 }
 
-p{
-font-size:22px;
+.description{
+font-size:24px;
 color:#555;
-margin-bottom:40px;
+max-width:760px;
+margin-bottom:50px;
+}
+
+.highlight{
+display:inline-block;
+padding:10px 18px;
+border-radius:999px;
+background:#111;
+color:white;
+font-size:14px;
+margin-bottom:30px;
 }
 
 .option{
 background:white;
 padding:40px;
-border-radius:24px;
+border-radius:28px;
 margin-bottom:30px;
+box-shadow:0 10px 30px rgba(0,0,0,0.05);
 }
 
 .option h2{
-margin-bottom:20px;
+font-size:36px;
+margin-bottom:14px;
+letter-spacing:-1px;
+}
+
+.option p{
+font-size:18px;
+color:#666;
+margin-bottom:24px;
 }
 
 .back{
 display:inline-block;
-margin-top:40px;
-color:#8b5a2b;
+margin-top:30px;
 text-decoration:none;
+color:#8b5a2b;
+font-size:16px;
+}
+
+.note{
+margin-top:50px;
+font-size:18px;
+color:#666;
+}
+
+@media(max-width:900px){
+
+h1{
+font-size:48px;
+}
+
+.description{
+font-size:20px;
+}
+
+.option h2{
+font-size:28px;
+}
+
 }
 
 </style>
@@ -68,28 +124,38 @@ text-decoration:none;
 
 <div class="container">
 
+<div class="highlight">
+Pan-India Delivery Included
+</div>
+
 <img
 src="../assets/sona-moti-flour.webp"
+alt="Sona Moti Wheat Flour"
 class="product-image"
-alt="Sona Moti Flour"
 />
 
 <h1>
 Sona Moti Wheat Flour
 </h1>
 
-<p>
+<p class="description">
 Traditional desi wheat.
-Freshly stone-ground every month.
-No pesticides. No shortcuts.
-Pan-India delivery included.
+Freshly stone-ground every month for aroma, softness & nourishment.
+No pesticides. No shortcuts. No hidden delivery charges.
 </p>
+
+<!-- 5KG -->
 
 <div class="option">
 
 <h2>
 5 KG Monthly
 </h2>
+
+<p>
+Perfect for smaller conscious households.
+Freshly milled before dispatch every month.
+</p>
 
 <form>
 <script
@@ -102,11 +168,18 @@ async>
 
 </div>
 
+<!-- 10KG -->
+
 <div class="option">
 
 <h2>
 10 KG Monthly
 </h2>
+
+<p>
+Designed for families committed to cleaner long-term food habits.
+Farm-direct monthly delivery included.
+</p>
 
 <form>
 <script
@@ -119,6 +192,11 @@ async>
 
 </div>
 
+<p class="note">
+What you eat quietly becomes your body.
+Health begins in the kitchen.
+</p>
+
 <a href="../index.html" class="back">
 ← Back to Home
 </a>
@@ -126,4 +204,5 @@ async>
 </div>
 
 </body>
+
 </html>
